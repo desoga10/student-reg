@@ -1,9 +1,14 @@
 import React from 'react';
 import './App.css';
+import {CssBaseline} from '@material-ui/core'
+import Header from './components/Header'
 
 function App() {
   return (
-    <h2>React</h2>
+  <>
+    <Header />
+    <CssBaseline />
+  </>
   );
 }
 
